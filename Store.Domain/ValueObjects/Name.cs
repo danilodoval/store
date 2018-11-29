@@ -4,7 +4,10 @@ namespace Store.Domain.ValueObjects
 {
     public class Name : Notifiable
     {
-        protected Name() { }
+        protected Name()
+        {
+
+        }
 
         public Name(string firstName, string lastName)
         {
